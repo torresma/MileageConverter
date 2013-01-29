@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Milage Converter</title>
+</head>
+
+<body>
+	
+	</form>
+	<script>
+		var input = prompt("What is your input?");
+		var kplresult;
+		var mpgresult;
+		
+
+		//onclick "converttoKPLbutton" = mpgtokpl(input)
+		function mpgtokpl(mpginput)
+		{
+			kplresult = input * 0.425144;
+		}
+		
+
+		//onclick "converttoMPGbutton" = mpgtokpl(input);
+		function kpltompg(kplinput)
+		{
+			mpgresult = input * 2.35215;
+		}
+	</script>
+</body>
+
+</html>
